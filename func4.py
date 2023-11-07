@@ -24,7 +24,7 @@ download_url = driver.execute_script("return downloadInformation[0].files[0].url
 # Создаем строку с ссылкой
 link = download_url
 
-# Возвращаем HTML-строку
+# Возвращаем ссылку
 print(f"Cсылка на обновление: {link}")
 
 driver.quit()
