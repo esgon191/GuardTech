@@ -2,7 +2,7 @@ import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-KB_number_from_func3 = input("Введите номер KB: ")
+KB_number_from_func3 = input("Введите номер KB: ") # KB4016871 для примера
 search_url = f'https://catalog.update.microsoft.com/Search.aspx?q={KB_number_from_func3}'
 
 # Используйте webdriver.Chrome() без аргументов
