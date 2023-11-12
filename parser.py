@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import csv, requests, urllib.request, json, progress
 from progress.bar import *
+from fnmatch import fnmatch
 #принимает номер CVE yyyy-nnnn[n] (год - 4 знака, номер - 4-5 знаков)
 #возвращает таблицу в формате json
 
@@ -43,14 +44,55 @@ def compare(product1: str, product2: str) -> bool:
     Устанавливает, являются ли две строки разными
     названиями одного продукта
     '''
-    #Создаем массив всех слов в названиях
-    data1 = product1.split(' ')
-    data2 = product2.split(' ')
-    
-    #разметка слов для сравнения продуктов
-    def markup(data: list) -> dict:
-        for word in data:
-            pass
+     
+    def markup(product: str) -> dict:
+        '''
+        Размечает строку по шаблону для дальнейшего сравнения.
+        Позволяет определить, что за продукт перед нами.
+        '''
+        marked_up = dict(
+            'product' : None,
+            'family' : None,
+            'version' : None,
+            'architect': None
+            )
+        
+        product = product.split(' - ')
+        #Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)
+        #->
+        #['Microsoft Windows',
+        #'Windows 10 version 21H1 ProfessionalWorkstation (x64)']
+        for i in range(len(product)):
+            product[i] = product[i].replace('\\', '*')
+            product[i] = product[i].replace(' ', '*')            
+            product[i] = product[i].replace(')', '')
+            product[i] = product[i].replace('(', '')
+            product[i] = product[i].split('*')
+        #['Microsoft Windows',
+        #'Windows 10 version 21H1 ProfessionalWorkstation (x64)']
+        #->
+        #[['Microsoft', 'Windows'],
+        #['Windows', '10', 'version', '21H1', 'ProfessionalWorkstation',
+        #'x64']]
+        for i in range(len(product)):
+            match product[i]:
+                case ['Microsoft', *prod]:
+                    marked_up['product'] = prod
+                    
+                    match product[i+1]:
+                        case ['Windows', family, _, version, _, architect, *trash]:
+                            marked_up['family'] = family
+                            marked_up['version'] = version
+
+                            for i in range(len(architect)):
+                                if architect[i] == 'x':
+                                    marked_up['architect'] = architect[i:i+3]
+
+                        case [*version]:
+                            marked_up['version'] = version
+                case _:
+                    raise NotImplementedError('Non-Microsoft Product')
+
 
 
 def main():
