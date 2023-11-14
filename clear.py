@@ -1,5 +1,3 @@
-data = open('all_local_data').readlines()
-#data.sort()
 def format_api(string):
 	garbage_words = [
 		'systems',
@@ -84,11 +82,3 @@ def format_local(string):
 	string = string.replace('  ', ' ')
 
 	return string
-
-for string in data:
-	try: 
-		print(format_local(string[:-1]))
-
-	except:
-		pass
-

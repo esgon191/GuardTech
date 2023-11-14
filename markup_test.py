@@ -1,29 +1,51 @@
 from unittest import TestCase, main
-from parser import markup
+from compare import markup
 
 class MarkUpTest(TestCase):
 	'''
-	Unit-тестирование функции mark_up файла parser.py
+	Unit-тестирование функции mark_up файла compare.py
 	'''
-	def test_otchet_OS(self):
+	def basic_test(self):
 		self.assertEqual(
-			markup('Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)'),
-			{
-				'product' : ['Windows'],
-				'family' : '10',
-            	'version' : '21H1',
-            	'architect': 'x64'
-			}
+				markup('windows 10 21h1 x64'),
+				{
+					'keywords' : ['windows', '10', '21h1'],
+        			'version' : None,
+        			'razr' : '64'
+				}
 			)
-
-	def test_otchet_PO(self):
-		pass
-
-	def test_api_OS(self):
-		pass
-
-	def test_api_PO(self):
-		pass
+		self.assertEqual(
+				markup('windows 7 32-bit'),
+				{
+					'keywords' : ['windows', '7'],
+        			'version' : None,
+        			'razr' : '32'
+				}
+			)
+		self.assertEqual(
+				markup('visual studio 2019 16.1'),
+				{
+					'keywords' : ['visual', 'studio', '2019'],
+        			'version' : '16.1',
+        			'razr' : None
+				}
+			)
+		self.assertEqual(
+				markup('powerpoint 2013 sp1'),
+				{
+					'keywords' : ['powerpoint', '2013', 'sp1'],
+        			'version' : None,
+        			'razr' : None
+				}
+			)
+		self.assertEqual(
+				markup('.net framework 3.5'),
+				{
+					'keywords' : ['.net', 'framework'],
+        			'version' : 3.5,
+        			'razr' : None
+				}
+			)
 
 if __name__ == '__main__':
 	main()
