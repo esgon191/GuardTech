@@ -1,3 +1,5 @@
+import re
+
 def markup(product: str) -> dict:
     '''
     Размечает строку по шаблону для дальнейшего сравнения.
@@ -11,14 +13,14 @@ def markup(product: str) -> dict:
         reg = r'^[x]*(32|64)(-based|-bit)?$'
 
         if re.fullmatch(reg, atribute) != None:
-            return ''.join([i for i in '123asd4' if i.isdigit()])
+            return ''.join([i for i in re.fullmatch(reg, atribute)[0] if i.isdigit()])
 
     def is_version(atribute: str) -> bool:
         #является ли версией
-        reg = r'^[0-9+].[0-9+]([.0-9])*'
+        reg = r'^([0-9]+\.)[0-9+](.[0-9])*'
 
         if re.fullmatch(reg, atribute) != None:
-            return re[0]
+            return re.fullmatch(reg, atribute)[0]
 
 
     marked_up = {
@@ -37,7 +39,7 @@ def markup(product: str) -> dict:
             marked_up['version'] = is_version(word)
 
         else:
-            product['keywords'].append(word)
+            marked_up['keywords'].append(word)
 
 
     return marked_up

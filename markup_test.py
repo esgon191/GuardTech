@@ -5,7 +5,7 @@ class MarkUpTest(TestCase):
 	'''
 	Unit-тестирование функции mark_up файла compare.py
 	'''
-	def basic_test(self):
+	def test_basic(self):
 		self.assertEqual(
 				markup('windows 10 21h1 x64'),
 				{
@@ -42,7 +42,7 @@ class MarkUpTest(TestCase):
 				markup('.net framework 3.5'),
 				{
 					'keywords' : ['.net', 'framework'],
-        			'version' : 3.5,
+        			'version' : '3.5',
         			'razr' : None
 				}
 			)
