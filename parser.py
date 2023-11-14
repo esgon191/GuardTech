@@ -38,60 +38,76 @@ def get_kb(KB):
     response = requests.get(_url)
     return response.text
 
+def markup(product: str) -> dict:
+    '''
+    Размечает строку по шаблону для дальнейшего сравнения.
+    Позволяет определить, что за продукт перед нами.
+    '''
+    marked_up = {
+        'product' : None, #Тип, когда определен - list
+        'spec' : None, #str
+        'family' : None, #str
+        'version' : None, #str
+        'architect': None #str
+        }
+        
+    product = product.split(' - ')
+    #Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)
+    #->
+    #['Microsoft Windows',
+    #'Windows 10 version 21H1 ProfessionalWorkstation (x64)']
+    for i in range(len(product)):
+        product[i] = product[i].replace('\\', '*')
+        product[i] = product[i].replace(' ', '*')            
+        product[i] = product[i].replace(')', '')
+        product[i] = product[i].replace('(', '')
+        product[i] = product[i].split('*')
+    #['Microsoft Windows',
+    #'Windows 10 version 21H1 ProfessionalWorkstation (x64)']
+    #->
+    #[['Microsoft', 'Windows'],
+    #['Windows', '10', 'version', '21H1', 'ProfessionalWorkstation',
+    #'x64']]
+    for i in range(len(product)):
+        match product[i]:
+            case ['Microsoft', *prod]:
+                marked_up['product'] = prod
+                    
+                match product[i+1]:
+                    case ['Windows', '7', _, architect, *trash]:
+                        marked_up['family'] = '7'
+                        marked_up['architect'] = architect[:2]
+
+                    case ['Windows', family, spec, version, _, architect, *trash]:
+                        marked_up['spec'] = spec
+                        marked_up['family'] = family
+                        marked_up['version'] = version
+
+                        for i in range(len(architect)):
+                            if architect[i] == 'x':
+                                marked_up['architect'] = architect[i:i+3]
+
+                    case [*version]:
+                        marked_up['version'] = version
+            case _:
+                raise NotImplementedError('Non-Microsoft Product')
+
+    for key in marked_up.keys()
+        try:
+            marked_up[key] = marked_up[key].lower()
+
+
+    return marked_up
+
 
 def compare(product1: str, product2: str) -> bool:
     '''
     Устанавливает, являются ли две строки разными
     названиями одного продукта
     '''
+    pass
      
-    def markup(product: str) -> dict:
-        '''
-        Размечает строку по шаблону для дальнейшего сравнения.
-        Позволяет определить, что за продукт перед нами.
-        '''
-        marked_up = dict(
-            'product' : None,
-            'family' : None,
-            'version' : None,
-            'architect': None
-            )
-        
-        product = product.split(' - ')
-        #Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)
-        #->
-        #['Microsoft Windows',
-        #'Windows 10 version 21H1 ProfessionalWorkstation (x64)']
-        for i in range(len(product)):
-            product[i] = product[i].replace('\\', '*')
-            product[i] = product[i].replace(' ', '*')            
-            product[i] = product[i].replace(')', '')
-            product[i] = product[i].replace('(', '')
-            product[i] = product[i].split('*')
-        #['Microsoft Windows',
-        #'Windows 10 version 21H1 ProfessionalWorkstation (x64)']
-        #->
-        #[['Microsoft', 'Windows'],
-        #['Windows', '10', 'version', '21H1', 'ProfessionalWorkstation',
-        #'x64']]
-        for i in range(len(product)):
-            match product[i]:
-                case ['Microsoft', *prod]:
-                    marked_up['product'] = prod
-                    
-                    match product[i+1]:
-                        case ['Windows', family, _, version, _, architect, *trash]:
-                            marked_up['family'] = family
-                            marked_up['version'] = version
-
-                            for i in range(len(architect)):
-                                if architect[i] == 'x':
-                                    marked_up['architect'] = architect[i:i+3]
-
-                        case [*version]:
-                            marked_up['version'] = version
-                case _:
-                    raise NotImplementedError('Non-Microsoft Product')
+    
 
 
 
@@ -119,4 +135,5 @@ def main():
 
             
 
-main()
+if __name__ == '__main__':
+    main()
