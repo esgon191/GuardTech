@@ -41,4 +41,3 @@ with open('all_basi_data.csv', 'w', encoding='utf-8', newline='') as file:
     writer.writeheaders()
 
     for i in range(len(data))
-'''

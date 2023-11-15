@@ -7,34 +7,34 @@ class MarkUpTest(TestCase):
 	'''
 	def test_basic(self):
 		self.assertEqual(
-				markup('windows 10 21h1 x64'),
+				markup('windows 10 21h1 x64-based'),
 				{
-					'keywords' : ['windows', '10', '21h1'],
-        			'version' : None,
+					'keywords' : ['10', '21h1', 'windows'],
+        			'versions' : [],
         			'razr' : '64'
 				}
 			)
 		self.assertEqual(
 				markup('windows 7 32-bit'),
 				{
-					'keywords' : ['windows', '7'],
-        			'version' : None,
+					'keywords' : ['7', 'windows'],
+        			'versions' : [],
         			'razr' : '32'
 				}
 			)
 		self.assertEqual(
 				markup('visual studio 2019 16.1'),
 				{
-					'keywords' : ['visual', 'studio', '2019'],
-        			'version' : '16.1',
+					'keywords' : ['2019', 'studio', 'visual'],
+        			'versions' : ['16.1'],
         			'razr' : None
 				}
 			)
 		self.assertEqual(
 				markup('powerpoint 2013 sp1'),
 				{
-					'keywords' : ['powerpoint', '2013', 'sp1'],
-        			'version' : None,
+					'keywords' : ['2013', 'powerpoint', 'sp1'],
+        			'versions' : [],
         			'razr' : None
 				}
 			)
@@ -42,9 +42,19 @@ class MarkUpTest(TestCase):
 				markup('.net framework 3.5'),
 				{
 					'keywords' : ['.net', 'framework'],
-        			'version' : '3.5',
+        			'versions' : ['3.5'],
         			'razr' : None
 				}
+			)
+
+	def test_includes(self):
+		self.assertEqual(
+			markup('visual studio 2019 16.6 includes 16.0 - 16.5'),
+			{
+				'keywords' : ['2019', 'studio', 'visual'],
+        		'versions' : ['16.6', ('16.0', '16.5')],
+        		'razr' : None
+			}
 			)
 
 if __name__ == '__main__':

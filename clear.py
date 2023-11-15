@@ -1,4 +1,4 @@
-def format_api(string):
+def format_api(string: str) -> str:
 	garbage_words = [
 		'systems',
 		'for',
@@ -28,12 +28,12 @@ def format_api(string):
 
 	string = ' '.join(string).replace('  ', ' ')
 	string = string.replace('service pack ', 'sp')
-	string = string.replace('/', ' ')
+	string = string.replace('/', ' ').strip()
 	
 
 	return string
 
-def format_local(string):
+def format_local(string: str) -> str:
 	garbage_words = [
 		'systems',
 		'for',
