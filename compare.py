@@ -1,5 +1,6 @@
 import re
 from clear import format_api, format_local
+from exceptions import *
 
 def markup(product: str) -> dict:
     '''
@@ -157,6 +158,96 @@ def compare(product_api: str, product_local: str) -> list:
         rating.append(rate_match(product_local[key], product_api[key], key))
 
     return rating
+
+
+def get_table(CVE: str) -> dict:
+    '''
+    Возвращает ссылку по CVE
+    Формат: CVE-yyyy-nnnn; Пример: CVE-2017-0160
+    __________________^не фиксированнное количество
+    '''
+    _url = f'https://api.msrc.microsoft.com/sug/v2.0/en-US/affectedProduct?$orderBy=releaseDate%20desc&$filter=cveNumber%20eq%20%27{CVE}%27'
+    with urllib.request.urlopen(_url) as url:
+        data = json.load(url)
+        return data
+
+
+def get_best_link(chunk):
+    '''
+    Отбор лучшей ссылки из строчки в таблице
+    Monthly Rollup > Security Update > Security Hotpatch Update
+    '''
+    links = dict()
+    for article in chunk['kbArticles']:
+        match article.get('downloadName').lower():
+            case 'monthly rollup':
+                link = article.get('downloadUrl')
+                if link != None:
+                    links[2] = link
+
+            case 'security update':
+                link = article.get('downloadUrl')
+                if link != None:
+                    links[1] = link
+
+            case 'security hotpatch update':
+                link = article.get('downloadUrl')
+                if link != None:
+                    links[0] = link
+
+    return links[max(links.keys())]
+
+
+def choose(cve: str, platform: str, product: str) -> str:
+    '''
+    На основе таблицы, платформы и продукта выбирает ссылку 
+    с лучшим совпадением
+    '''
+    #Запрос в апи
+    table = get_table(cve)
+
+    #Если таблица пуста, вызываем исключение
+    if table['@odata.count'] == 0:
+        raise EmptyTableError('No data found on microsoft servers')
+
+    #результаы сравнений
+    results = dict()
+
+    #проход по записям таблицы
+    for chunk in table['value']:
+        pair = dict()
+
+        #если продукт - ОС, то платформа не содержится в ответе
+        if 'platform' in chunk and 'product' in chunk:
+            pair['platform'] = compare(chunk['platform'], platform)
+            pair['product'] = compare(chunk['product'], product)
+
+        elif 'product' in chunk and 'platform' not in chunk:
+            pair['platform'] = compare(chunk['platform'], product)
+            pair['product'] = compare(chunk['platform'], product)
+
+        else:
+            continue
+        
+        #проверка результатов сравнения для каждого элемента пары
+        if (0 not in pair['platform']) and (0 not in pair['product']):
+            link = get_best_link(chunk) 
+            if link != None:
+                compare_result = int(''.join(map(str, pair['platform']))) + int(''.join(map(str, pair['product'])))
+                #если есть идеальное совпадение - сразу возвращаем результат
+                if compare_result == 444:
+                    return link
+                else:
+                    results[link] = compare_result
+
+    #лучший результат сравнения
+    max_result = max([i for i in results.values()])
+    for link in results:
+        if results[link] == max_result:
+            return link
+
+
+
 
 
 
