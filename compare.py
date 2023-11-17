@@ -1,4 +1,4 @@
-import re
+import re, urllib.request, json
 from clear import format_api, format_local
 from exceptions import *
 
@@ -154,7 +154,6 @@ def compare(product_api: str, product_local: str) -> list:
 
     rating = []
     for key in product_api.keys():
-        print(product_api, product_local, key)
         rating.append(rate_match(product_local[key], product_api[key], key))
 
     return rating
@@ -223,43 +222,28 @@ def choose(cve: str, platform: str, product: str) -> str:
             pair['product'] = compare(chunk['product'], product)
 
         elif 'product' in chunk and 'platform' not in chunk:
-            pair['platform'] = compare(chunk['platform'], product)
-            pair['product'] = compare(chunk['platform'], product)
+            pair['product'] = compare(chunk['product'], product)
 
         else:
             continue
         
         #проверка результатов сравнения для каждого элемента пары
-        if (0 not in pair['platform']) and (0 not in pair['product']):
+        if (0 not in [] if pair.get('platform') == None else pair.get('platform')) and (0 not in pair['product']):
             link = get_best_link(chunk) 
             if link != None:
-                compare_result = int(''.join(map(str, pair['platform']))) + int(''.join(map(str, pair['product'])))
+                res_platform = 0
+                if pair.get('platform') != None:
+                    res_platform = int(''.join(map(str, pair['platform'])))
+
+                compare_result = int(''.join(map(str, pair['product']))) + res_platform
                 #если есть идеальное совпадение - сразу возвращаем результат
-                if compare_result == 444:
+                if compare_result == 444 or compare_result == 222:
                     return link
                 else:
                     results[link] = compare_result
 
     #лучший результат сравнения
-    max_result = max([i for i in results.values()])
+    max_result = max(results.values())
     for link in results:
         if results[link] == max_result:
             return link
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
