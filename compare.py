@@ -1,9 +1,9 @@
-import re, urllib.request, json, logging
+import re, urllib.request, json, logging, datetime
 from clear import format_api, format_local
 from exceptions import *
 
-logging.basicConfig(filename='compare.log', level=logging.DEBUG, 
-                    format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+logging.basicConfig(filename='compare.log', level=logging.INFO, 
+                    format='%(asctime)s.%(msecs)03d - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 
 
 def markup(product: str) -> dict:
@@ -78,18 +78,16 @@ def rate_match(atr_local: (list | str), atr_api: (list | str), type_of_atr: str)
     '''
     match type_of_atr:
         case 'keywords':
+            atr_api = set(atr_api)
+            atr_local = set(atr_local)
+
             if atr_api == atr_local:
                 return 2
 
+            elif atr_local <= atr_api or atr_local >= atr_api:
+                return 1
+            
             else:
-                flag = True
-                for i in range(min(len(atr_api), len(atr_local))):
-                    if atr_api[i] != atr_local[i]:
-                        flag = False
-
-                if flag:
-                    return 1
-
                 return 0
 
         case 'versions':
@@ -219,6 +217,7 @@ def choose(cve: str, platform: str, product: str) -> str:
     На основе таблицы, платформы и продукта выбирает ссылку 
     с лучшим совпадением
     '''
+    logging.critical(f"{datetime.datetime.now()}----NEW LAUNCH----")
     #Запрос в апи
     table = get_table(cve)
 
@@ -227,7 +226,7 @@ def choose(cve: str, platform: str, product: str) -> str:
         raise EmptyTableError('No data found on microsoft servers')
 
     #результаы сравнений
-    results = dict()
+    results = []
 
     #проход по записям таблицы
     for chunk in table['value']:
@@ -261,11 +260,23 @@ def choose(cve: str, platform: str, product: str) -> str:
                 if compare_result == 444 or compare_result == 222:
                     return link
                 else:
-                    results[link] = compare_result
+                    results.append({
+                        "link" : link,
+                        "result" : compare_result
+                    })
 
+    if len(results) == 0:
+        logging.error("NO MATCHING LINK")
+        raise NoMatchingLink
+    
     #лучший результат сравнения
-    max_result = max(results.values())
-    logging.info(results)
-    for link in results:
-        if results[link] == max_result:
-            return link
+    max_result = max([i["result"] for i in results])
+    logging.debug(results)
+    
+    links = []
+    for record in results:
+        if record["result"] == max_result:
+            links.append(record["link"])
+    
+    logging.info(links)
+    return links[0]
