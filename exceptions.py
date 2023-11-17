@@ -5,8 +5,11 @@ class BasicError(Exception):
 
 	def __str__(self):
 		return self.message
-		
+
 class EmptyTableError(BasicError):
+	pass
+
+class NoLinkFoundError(BasicError):
 	pass
 
 class NoMatchingLink(BasicError):

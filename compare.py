@@ -95,6 +95,9 @@ def rate_match(atr_local: (list | str), atr_api: (list | str), type_of_atr: str)
         case 'versions':
             if len(atr_api) == 0 and len(atr_local) == 0:
                 return 2
+            
+            elif len(atr_api) == 0 or len(atr_local) == 0:
+                return 1
 
             for version in atr_api:
                 match version:
@@ -204,6 +207,9 @@ def get_best_link(chunk):
                 if link != None:
                     links[0] = link
 
+    if len(links.keys()) == 0:
+        raise NoLinkFoundError("No downloadUrl in chunk['kbArticles']")
+
     logging.debug(str(links[max(links.keys())]))    
     return links[max(links.keys())]
 
@@ -240,7 +246,11 @@ def choose(cve: str, platform: str, product: str) -> str:
         
         #проверка результатов сравнения для каждого элемента пары
         if (0 not in [] if pair.get('platform') == None else pair.get('platform')) and (0 not in pair['product']):
-            link = get_best_link(chunk) 
+            try:
+                link = get_best_link(chunk)
+            except NoLinkFoundError:
+                link = None
+
             if link != None:
                 res_platform = 0
                 if pair.get('platform') != None:
@@ -255,7 +265,7 @@ def choose(cve: str, platform: str, product: str) -> str:
 
     #лучший результат сравнения
     max_result = max(results.values())
+    logging.info(results)
     for link in results:
         if results[link] == max_result:
             return link
-        
