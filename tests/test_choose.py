@@ -5,12 +5,12 @@ from compare import choose
 
 logging.basicConfig(filename='compare.log', level=logging.DEBUG, 
                     format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
-
+'''
 logger = logging.getLogger()
 sys.stdout = open('compare.log','w')
 stream_handler = logging.StreamHandler(sys.stdout)
 logger.addHandler(stream_handler)
-
+'''
 class ChooseTest(TestCase):
     def test_no_platform(self):
         self.assertEqual(
