@@ -1,1143 +1,1141 @@
-CVE
-CVE-2015-2455
-CVE-2015-2456
-CVE-2015-2462
-CVE-2015-2504
-CVE-2015-6096
-CVE-2015-6108
-CVE-2015-6115
-CVE-2016-0033
-CVE-2016-0047
-CVE-2016-0132
-CVE-2016-0145
-CVE-2016-0149
-CVE-2016-3209
-CVE-2016-3255
-CVE-2017-0160
-CVE-2017-0248
-CVE-2017-8759
-CVE-2018-0764
-CVE-2018-0765
-CVE-2018-0786
-CVE-2018-1039
-CVE-2018-8202
-CVE-2018-8284
-CVE-2018-8360
-CVE-2018-8421
-CVE-2018-8517
-CVE-2018-8540
-CVE-2019-0545
-CVE-2019-0613
-CVE-2019-0657
-CVE-2019-0820
-CVE-2019-0820
-CVE-2019-0980
-CVE-2019-0980
-CVE-2019-0981
-CVE-2019-0981
-CVE-2019-1006
-CVE-2019-1006
-CVE-2019-1083
-CVE-2019-1083
-CVE-2019-1113
-CVE-2019-1113
-CVE-2020-0605
-CVE-2020-0605
-CVE-2020-0606
-CVE-2020-0606
-CVE-2020-0646
-CVE-2020-0646
-CVE-2020-1046
-CVE-2020-1108
-CVE-2020-1108
-CVE-2020-1147
-CVE-2020-1147
-CVE-2020-1476
-CVE-2020-1476
-CVE-2020-16937
-CVE-2020-16937
-CVE-2021-24111
-CVE-2022-0789
-CVE-2022-0790
-CVE-2022-0791
-CVE-2022-0792
-CVE-2022-0793
-CVE-2022-0794
-CVE-2022-0795
-CVE-2022-0796
-CVE-2022-0797
-CVE-2022-0798
-CVE-2022-0799
-CVE-2022-0800
-CVE-2022-0801
-CVE-2022-0802
-CVE-2022-0803
-CVE-2022-0804
-CVE-2022-0805
-CVE-2022-0806
-CVE-2022-0807
-CVE-2022-0808
-CVE-2022-0809
-CVE-2022-0971
-CVE-2022-0972
-CVE-2022-0973
-CVE-2022-0974
-CVE-2022-0975
-CVE-2022-0976
-CVE-2022-0977
-CVE-2022-0978
-CVE-2022-0979
-CVE-2022-0980
-CVE-2022-1096
-CVE-2022-1125
-CVE-2022-1127
-CVE-2022-1128
-CVE-2022-1129
-CVE-2022-1130
-CVE-2022-1131
-CVE-2022-1133
-CVE-2022-1134
-CVE-2022-1135
-CVE-2022-1136
-CVE-2022-1137
-CVE-2022-1138
-CVE-2022-1139
-CVE-2022-1143
-CVE-2022-1145
-CVE-2022-1146
-CVE-2022-1232
-CVE-2022-1305
-CVE-2022-1306
-CVE-2022-1307
-CVE-2022-1308
-CVE-2022-1309
-CVE-2022-1310
-CVE-2022-1312
-CVE-2022-1313
-CVE-2022-1314
-CVE-2022-1364
-CVE-2022-1477
-CVE-2022-1478
-CVE-2022-1479
-CVE-2022-1481
-CVE-2022-1482
-CVE-2022-1483
-CVE-2022-1484
-CVE-2022-1485
-CVE-2022-1486
-CVE-2022-1487
-CVE-2022-1488
-CVE-2022-1490
-CVE-2022-1491
-CVE-2022-1492
-CVE-2022-1493
-CVE-2022-1494
-CVE-2022-1495
-CVE-2022-1497
-CVE-2022-1498
-CVE-2022-1499
-CVE-2022-1500
-CVE-2022-1501
-CVE-2022-1634
-CVE-2022-1635
-CVE-2022-1636
-CVE-2022-1637
-CVE-2022-1638
-CVE-2022-1639
-CVE-2022-1640
-CVE-2022-1853
-CVE-2022-1854
-CVE-2022-1855
-CVE-2022-1856
-CVE-2022-1857
-CVE-2022-1858
-CVE-2022-1859
-CVE-2022-1862
-CVE-2022-1863
-CVE-2022-1864
-CVE-2022-1865
-CVE-2022-1867
-CVE-2022-1868
-CVE-2022-1869
-CVE-2022-1870
-CVE-2022-1871
-CVE-2022-1872
-CVE-2022-1873
-CVE-2022-1874
-CVE-2022-1875
-CVE-2022-1876
-CVE-2022-2007
-CVE-2022-2008
-CVE-2022-2010
-CVE-2022-2011
-CVE-2022-21123
-CVE-2022-21125
-CVE-2022-21127
-CVE-2022-21166
-CVE-2022-21426
-CVE-2022-21426
-CVE-2022-21426
-CVE-2022-21434
-CVE-2022-21434
-CVE-2022-21434
-CVE-2022-21476
-CVE-2022-21476
-CVE-2022-21476
-CVE-2022-21496
-CVE-2022-21496
-CVE-2022-21496
-CVE-2022-21540
-CVE-2022-21540
-CVE-2022-21540
-CVE-2022-21541
-CVE-2022-21541
-CVE-2022-21541
-CVE-2022-2156
-CVE-2022-2157
-CVE-2022-2158
-CVE-2022-2160
-CVE-2022-2161
-CVE-2022-2162
-CVE-2022-21626
-CVE-2022-21626
-CVE-2022-21626
-CVE-2022-21628
-CVE-2022-21628
-CVE-2022-21628
-CVE-2022-2163
-CVE-2022-2164
-CVE-2022-2165
-CVE-2022-21845
-CVE-2022-21911
-CVE-2022-21911
-CVE-2022-21967
-CVE-2022-21971
-CVE-2022-21972
-CVE-2022-21974
-CVE-2022-21981
-CVE-2022-21983
-CVE-2022-21984
-CVE-2022-21985
-CVE-2022-21989
-CVE-2022-21990
-CVE-2022-21992
-CVE-2022-21993
-CVE-2022-21994
-CVE-2022-21997
-CVE-2022-21998
-CVE-2022-21999
-CVE-2022-22000
-CVE-2022-22001
-CVE-2022-22002
-CVE-2022-22010
-CVE-2022-22011
-CVE-2022-22012
-CVE-2022-22013
-CVE-2022-22014
-CVE-2022-22015
-CVE-2022-22016
-CVE-2022-22019
-CVE-2022-22021
-CVE-2022-22022
-CVE-2022-22023
-CVE-2022-22024
-CVE-2022-22025
-CVE-2022-22026
-CVE-2022-22027
-CVE-2022-22031
-CVE-2022-22034
-CVE-2022-22035
-CVE-2022-22036
-CVE-2022-22037
-CVE-2022-22038
-CVE-2022-22040
-CVE-2022-22041
-CVE-2022-22043
-CVE-2022-22045
-CVE-2022-22047
-CVE-2022-22048
-CVE-2022-22049
-CVE-2022-22050
-CVE-2022-22710
-CVE-2022-22711
-CVE-2022-22715
-CVE-2022-22717
-CVE-2022-22718
-CVE-2022-2294
-CVE-2022-2295
-CVE-2022-23253
-CVE-2022-23270
-CVE-2022-23279
-CVE-2022-23281
-CVE-2022-23283
-CVE-2022-23284
-CVE-2022-23285
-CVE-2022-23286
-CVE-2022-23287
-CVE-2022-23288
-CVE-2022-23290
-CVE-2022-23291
-CVE-2022-23293
-CVE-2022-23294
-CVE-2022-23296
-CVE-2022-23297
-CVE-2022-23298
-CVE-2022-23299
-CVE-2022-23824
-CVE-2022-24102
-CVE-2022-24103
-CVE-2022-24104
-CVE-2022-24454
-CVE-2022-24459
-CVE-2022-24460
-CVE-2022-24474
-CVE-2022-24475
-CVE-2022-24479
-CVE-2022-24481
-CVE-2022-24482
-CVE-2022-24483
-CVE-2022-24485
-CVE-2022-24486
-CVE-2022-24487
-CVE-2022-24488
-CVE-2022-24491
-CVE-2022-24492
-CVE-2022-24493
-CVE-2022-24494
-CVE-2022-24495
-CVE-2022-24496
-CVE-2022-24497
-CVE-2022-24498
-CVE-2022-24499
-CVE-2022-24500
-CVE-2022-24502
-CVE-2022-24503
-CVE-2022-24504
-CVE-2022-24505
-CVE-2022-24507
-CVE-2022-24508
-CVE-2022-24511
-CVE-2022-24521
-CVE-2022-24523
-CVE-2022-24525
-CVE-2022-24527
-CVE-2022-24528
-CVE-2022-24530
-CVE-2022-24533
-CVE-2022-24534
-CVE-2022-24540
-CVE-2022-24541
-CVE-2022-24542
-CVE-2022-24544
-CVE-2022-24545
-CVE-2022-24546
-CVE-2022-24547
-CVE-2022-24548
-CVE-2022-24549
-CVE-2022-24550
-CVE-2022-2477
-CVE-2022-2478
-CVE-2022-2479
-CVE-2022-2480
-CVE-2022-2481
-CVE-2022-2603
-CVE-2022-2604
-CVE-2022-2605
-CVE-2022-2606
-CVE-2022-2610
-CVE-2022-2611
-CVE-2022-2612
-CVE-2022-2614
-CVE-2022-2615
-CVE-2022-2616
-CVE-2022-2617
-CVE-2022-2618
-CVE-2022-2619
-CVE-2022-2621
-CVE-2022-2622
-CVE-2022-2623
-CVE-2022-2624
-CVE-2022-26786
-CVE-2022-26787
-CVE-2022-26788
-CVE-2022-26789
-CVE-2022-26790
-CVE-2022-26791
-CVE-2022-26792
-CVE-2022-26793
-CVE-2022-26794
-CVE-2022-26795
-CVE-2022-26796
-CVE-2022-26797
-CVE-2022-26798
-CVE-2022-26801
-CVE-2022-26802
-CVE-2022-26803
-CVE-2022-26807
-CVE-2022-26808
-CVE-2022-26809
-CVE-2022-26810
-CVE-2022-26826
-CVE-2022-26827
-CVE-2022-26828
-CVE-2022-26831
-CVE-2022-26832
-CVE-2022-26832
-CVE-2022-26891
-CVE-2022-26894
-CVE-2022-26895
-CVE-2022-26900
-CVE-2022-26901
-CVE-2022-26901
-CVE-2022-26903
-CVE-2022-26904
-CVE-2022-26905
-CVE-2022-26908
-CVE-2022-26909
-CVE-2022-26912
-CVE-2022-26913
-CVE-2022-26914
-CVE-2022-26915
-CVE-2022-26916
-CVE-2022-26917
-CVE-2022-26918
-CVE-2022-26919
-CVE-2022-26920
-CVE-2022-26923
-CVE-2022-26925
-CVE-2022-26926
-CVE-2022-26927
-CVE-2022-26928
-CVE-2022-26929
-CVE-2022-26929
-CVE-2022-26930
-CVE-2022-26931
-CVE-2022-26933
-CVE-2022-26934
-CVE-2022-26935
-CVE-2022-26936
-CVE-2022-27776
-CVE-2022-27785
-CVE-2022-27786
-CVE-2022-27787
-CVE-2022-27788
-CVE-2022-27789
-CVE-2022-27790
-CVE-2022-27791
-CVE-2022-27792
-CVE-2022-27793
-CVE-2022-27794
-CVE-2022-27795
-CVE-2022-27796
-CVE-2022-27797
-CVE-2022-27798
-CVE-2022-27799
-CVE-2022-27800
-CVE-2022-27801
-CVE-2022-27802
-CVE-2022-28230
-CVE-2022-28231
-CVE-2022-28232
-CVE-2022-28233
-CVE-2022-28234
-CVE-2022-28235
-CVE-2022-28236
-CVE-2022-28237
-CVE-2022-28238
-CVE-2022-28239
-CVE-2022-28240
-CVE-2022-28241
-CVE-2022-28242
-CVE-2022-28243
-CVE-2022-28244
-CVE-2022-28245
-CVE-2022-28246
-CVE-2022-28247
-CVE-2022-28248
-CVE-2022-28249
-CVE-2022-28250
-CVE-2022-28251
-CVE-2022-28253
-CVE-2022-28254
-CVE-2022-28255
-CVE-2022-28256
-CVE-2022-28257
-CVE-2022-28258
-CVE-2022-28259
-CVE-2022-28260
-CVE-2022-28261
-CVE-2022-28262
-CVE-2022-28263
-CVE-2022-28264
-CVE-2022-28265
-CVE-2022-28266
-CVE-2022-28267
-CVE-2022-2852
-CVE-2022-2853
-CVE-2022-2854
-CVE-2022-2855
-CVE-2022-2856
-CVE-2022-2857
-CVE-2022-2858
-CVE-2022-2860
-CVE-2022-2861
-CVE-2022-28837
-CVE-2022-28838
-CVE-2022-29103
-CVE-2022-29104
-CVE-2022-29105
-CVE-2022-29107
-CVE-2022-29107
-CVE-2022-29110
-CVE-2022-29112
-CVE-2022-29113
-CVE-2022-29114
-CVE-2022-29115
-CVE-2022-29121
-CVE-2022-29125
-CVE-2022-29126
-CVE-2022-29127
-CVE-2022-29128
-CVE-2022-29129
-CVE-2022-29130
-CVE-2022-29131
-CVE-2022-29132
-CVE-2022-29137
-CVE-2022-29139
-CVE-2022-29140
-CVE-2022-29141
-CVE-2022-29142
-CVE-2022-30127
-CVE-2022-30128
-CVE-2022-30132
-CVE-2022-30133
-CVE-2022-30138
-CVE-2022-30139
-CVE-2022-30140
-CVE-2022-30141
-CVE-2022-30142
-CVE-2022-30143
-CVE-2022-30144
-CVE-2022-30145
-CVE-2022-30146
-CVE-2022-30147
-CVE-2022-30148
-CVE-2022-30149
-CVE-2022-30150
-CVE-2022-30151
-CVE-2022-30152
-CVE-2022-30153
-CVE-2022-30155
-CVE-2022-30160
-CVE-2022-30161
-CVE-2022-30162
-CVE-2022-30164
-CVE-2022-30165
-CVE-2022-30166
-CVE-2022-30170
-CVE-2022-30173
-CVE-2022-30189
-CVE-2022-30190
-CVE-2022-30192
-CVE-2022-30194
-CVE-2022-30196
-CVE-2022-30197
-CVE-2022-30198
-CVE-2022-30200
-CVE-2022-30202
-CVE-2022-30203
-CVE-2022-30205
-CVE-2022-30206
-CVE-2022-30208
-CVE-2022-30209
-CVE-2022-30211
-CVE-2022-30212
-CVE-2022-30213
-CVE-2022-30216
-CVE-2022-30220
-CVE-2022-30221
-CVE-2022-30222
-CVE-2022-30224
-CVE-2022-30225
-CVE-2022-30226
-CVE-2022-3038
-CVE-2022-3039
-CVE-2022-3040
-CVE-2022-3041
-CVE-2022-3044
-CVE-2022-3045
-CVE-2022-3046
-CVE-2022-3047
-CVE-2022-3053
-CVE-2022-3054
-CVE-2022-3055
-CVE-2022-3056
-CVE-2022-3057
-CVE-2022-3058
-CVE-2022-3075
-CVE-2022-3195
-CVE-2022-3196
-CVE-2022-3197
-CVE-2022-3198
-CVE-2022-3199
-CVE-2022-3200
-CVE-2022-32230
-CVE-2022-3304
-CVE-2022-3307
-CVE-2022-3308
-CVE-2022-3310
-CVE-2022-3311
-CVE-2022-3313
-CVE-2022-3315
-CVE-2022-3316
-CVE-2022-3317
-CVE-2022-33631
-CVE-2022-33632
-CVE-2022-33634
-CVE-2022-33635
-CVE-2022-33636
-CVE-2022-33638
-CVE-2022-33639
-CVE-2022-33644
-CVE-2022-33645
-CVE-2022-33649
-CVE-2022-33670
-CVE-2022-33680
-CVE-2022-3370
-CVE-2022-3373
-CVE-2022-34169
-CVE-2022-34169
-CVE-2022-34169
-CVE-2022-34215
-CVE-2022-34216
-CVE-2022-34217
-CVE-2022-34219
-CVE-2022-34220
-CVE-2022-34221
-CVE-2022-34222
-CVE-2022-34223
-CVE-2022-34225
-CVE-2022-34226
-CVE-2022-34228
-CVE-2022-34229
-CVE-2022-34230
-CVE-2022-34232
-CVE-2022-34233
-CVE-2022-34234
-CVE-2022-34236
-CVE-2022-34237
-CVE-2022-34239
-CVE-2022-34301
-CVE-2022-34302
-CVE-2022-34303
-CVE-2022-3445
-CVE-2022-3446
-CVE-2022-3447
-CVE-2022-3448
-CVE-2022-3449
-CVE-2022-3450
-CVE-2022-34689
-CVE-2022-34690
-CVE-2022-34691
-CVE-2022-34699
-CVE-2022-34701
-CVE-2022-34702
-CVE-2022-34703
-CVE-2022-34704
-CVE-2022-34705
-CVE-2022-34706
-CVE-2022-34707
-CVE-2022-34708
-CVE-2022-34709
-CVE-2022-34710
-CVE-2022-34712
-CVE-2022-34713
-CVE-2022-34714
-CVE-2022-34717
-CVE-2022-34718
-CVE-2022-34719
-CVE-2022-34720
-CVE-2022-34721
-CVE-2022-34722
-CVE-2022-34725
-CVE-2022-34726
-CVE-2022-34727
-CVE-2022-34728
-CVE-2022-34729
-CVE-2022-34730
-CVE-2022-34731
-CVE-2022-34732
-CVE-2022-34733
-CVE-2022-34734
-CVE-2022-35665
-CVE-2022-35666
-CVE-2022-35667
-CVE-2022-35668
-CVE-2022-35669
-CVE-2022-35670
-CVE-2022-35671
-CVE-2022-35672
-CVE-2022-35678
-CVE-2022-35691
-CVE-2022-35742
-CVE-2022-35743
-CVE-2022-35744
-CVE-2022-35745
-CVE-2022-35746
-CVE-2022-35747
-CVE-2022-35749
-CVE-2022-35750
-CVE-2022-35752
-CVE-2022-35753
-CVE-2022-35754
-CVE-2022-35755
-CVE-2022-35756
-CVE-2022-35757
-CVE-2022-35758
-CVE-2022-35759
-CVE-2022-35760
-CVE-2022-35761
-CVE-2022-35762
-CVE-2022-35763
-CVE-2022-35764
-CVE-2022-35765
-CVE-2022-35766
-CVE-2022-35767
-CVE-2022-35768
-CVE-2022-35769
-CVE-2022-35770
-CVE-2022-35771
-CVE-2022-35792
-CVE-2022-35793
-CVE-2022-35794
-CVE-2022-35795
-CVE-2022-35796
-CVE-2022-35797
-CVE-2022-35803
-CVE-2022-35820
-CVE-2022-35831
-CVE-2022-35832
-CVE-2022-35833
-CVE-2022-35834
-CVE-2022-35835
-CVE-2022-35836
-CVE-2022-35837
-CVE-2022-35840
-CVE-2022-35841
-CVE-2022-3652
-CVE-2022-3653
-CVE-2022-3654
-CVE-2022-3655
-CVE-2022-3656
-CVE-2022-3657
-CVE-2022-3660
-CVE-2022-3661
-CVE-2022-3723
-CVE-2022-37954
-CVE-2022-37955
-CVE-2022-37956
-CVE-2022-37957
-CVE-2022-37958
-CVE-2022-37962
-CVE-2022-37965
-CVE-2022-37969
-CVE-2022-37970
-CVE-2022-37971
-CVE-2022-37973
-CVE-2022-37975
-CVE-2022-37977
-CVE-2022-37978
-CVE-2022-37980
-CVE-2022-37981
-CVE-2022-37982
-CVE-2022-37983
-CVE-2022-37984
-CVE-2022-37985
-CVE-2022-37986
-CVE-2022-37987
-CVE-2022-37988
-CVE-2022-37989
-CVE-2022-37990
-CVE-2022-37991
-CVE-2022-37992
-CVE-2022-37993
-CVE-2022-37994
-CVE-2022-37995
-CVE-2022-37996
-CVE-2022-37997
-CVE-2022-37998
-CVE-2022-37999
-CVE-2022-38000
-CVE-2022-38003
-CVE-2022-38004
-CVE-2022-38005
-CVE-2022-38006
-CVE-2022-38012
-CVE-2022-38016
-CVE-2022-38021
-CVE-2022-38026
-CVE-2022-38027
-CVE-2022-38028
-CVE-2022-38029
-CVE-2022-38030
-CVE-2022-38031
-CVE-2022-38032
-CVE-2022-38033
-CVE-2022-38034
-CVE-2022-38037
-CVE-2022-38038
-CVE-2022-38039
-CVE-2022-38040
-CVE-2022-38041
-CVE-2022-38042
-CVE-2022-38043
-CVE-2022-38044
-CVE-2022-38045
-CVE-2022-38046
-CVE-2022-38047
-CVE-2022-38048
-CVE-2022-38050
-CVE-2022-38051
-CVE-2022-38437
-CVE-2022-38449
-CVE-2022-38450
-CVE-2022-3885
-CVE-2022-3886
-CVE-2022-3887
-CVE-2022-3888
-CVE-2022-3889
-CVE-2022-3890
-CVE-2022-41033
-CVE-2022-41035
-CVE-2022-41039
-CVE-2022-41045
-CVE-2022-41047
-CVE-2022-41048
-CVE-2022-41049
-CVE-2022-41050
-CVE-2022-41052
-CVE-2022-41053
-CVE-2022-41054
-CVE-2022-41055
-CVE-2022-41056
-CVE-2022-41057
-CVE-2022-41058
-CVE-2022-41060
-CVE-2022-41061
-CVE-2022-41063
-CVE-2022-41064
-CVE-2022-41073
-CVE-2022-41074
-CVE-2022-41076
-CVE-2022-41077
-CVE-2022-41081
-CVE-2022-41086
-CVE-2022-41088
-CVE-2022-41089
-CVE-2022-41089
-CVE-2022-41090
-CVE-2022-41091
-CVE-2022-41092
-CVE-2022-41093
-CVE-2022-41095
-CVE-2022-41096
-CVE-2022-41097
-CVE-2022-41098
-CVE-2022-41099
-CVE-2022-41100
-CVE-2022-41101
-CVE-2022-41102
-CVE-2022-41103
-CVE-2022-41104
-CVE-2022-41106
-CVE-2022-41109
-CVE-2022-41113
-CVE-2022-41114
-CVE-2022-41115
-CVE-2022-41118
-CVE-2022-41121
-CVE-2022-41125
-CVE-2022-41128
-CVE-2022-4135
-CVE-2022-4174
-CVE-2022-4175
-CVE-2022-4177
-CVE-2022-4178
-CVE-2022-4179
-CVE-2022-4180
-CVE-2022-4181
-CVE-2022-4182
-CVE-2022-4183
-CVE-2022-4184
-CVE-2022-4185
-CVE-2022-4186
-CVE-2022-4187
-CVE-2022-4188
-CVE-2022-4189
-CVE-2022-4190
-CVE-2022-4191
-CVE-2022-4192
-CVE-2022-4193
-CVE-2022-4194
-CVE-2022-4195
-CVE-2022-42339
-CVE-2022-42342
-CVE-2022-4436
-CVE-2022-4437
-CVE-2022-4438
-CVE-2022-4439
-CVE-2022-4440
-CVE-2022-44666
-CVE-2022-44667
-CVE-2022-44668
-CVE-2022-44669
-CVE-2022-44670
-CVE-2022-44671
-CVE-2022-44673
-CVE-2022-44674
-CVE-2022-44675
-CVE-2022-44676
-CVE-2022-44677
-CVE-2022-44678
-CVE-2022-44679
-CVE-2022-44680
-CVE-2022-44681
-CVE-2022-44683
-CVE-2022-44688
-CVE-2022-44689
-CVE-2022-44697
-CVE-2022-44698
-CVE-2022-44707
-CVE-2022-44708
-CVE-2023-0129
-CVE-2023-0130
-CVE-2023-0131
-CVE-2023-0132
-CVE-2023-0133
-CVE-2023-0134
-CVE-2023-0135
-CVE-2023-0136
-CVE-2023-0138
-CVE-2023-0139
-CVE-2023-0140
-CVE-2023-0141
-CVE-2023-0471
-CVE-2023-0472
-CVE-2023-0473
-CVE-2023-0474
-CVE-2023-0696
-CVE-2023-0697
-CVE-2023-0698
-CVE-2023-0699
-CVE-2023-0700
-CVE-2023-0701
-CVE-2023-0702
-CVE-2023-0703
-CVE-2023-0704
-CVE-2023-0705
-CVE-2023-0927
-CVE-2023-0928
-CVE-2023-0929
-CVE-2023-0930
-CVE-2023-0931
-CVE-2023-0932
-CVE-2023-0933
-CVE-2023-0941
-CVE-2023-1213
-CVE-2023-1214
-CVE-2023-1215
-CVE-2023-1216
-CVE-2023-1217
-CVE-2023-1218
-CVE-2023-1219
-CVE-2023-1220
-CVE-2023-1221
-CVE-2023-1222
-CVE-2023-1223
-CVE-2023-1224
-CVE-2023-1228
-CVE-2023-1229
-CVE-2023-1230
-CVE-2023-1231
-CVE-2023-1232
-CVE-2023-1233
-CVE-2023-1234
-CVE-2023-1235
-CVE-2023-1236
-CVE-2023-1528
-CVE-2023-1529
-CVE-2023-1530
-CVE-2023-1531
-CVE-2023-1532
-CVE-2023-1533
-CVE-2023-1534
-CVE-2023-1810
-CVE-2023-1811
-CVE-2023-1812
-CVE-2023-1813
-CVE-2023-1814
-CVE-2023-1815
-CVE-2023-1816
-CVE-2023-1817
-CVE-2023-1818
-CVE-2023-1819
-CVE-2023-1820
-CVE-2023-1821
-CVE-2023-1822
-CVE-2023-1823
-CVE-2023-2033
-CVE-2023-2133
-CVE-2023-2134
-CVE-2023-2135
-CVE-2023-2136
-CVE-2023-2137
-CVE-2023-21579
-CVE-2023-21581
-CVE-2023-21585
-CVE-2023-21586
-CVE-2023-21604
-CVE-2023-21605
-CVE-2023-21606
-CVE-2023-21607
-CVE-2023-21608
-CVE-2023-21609
-CVE-2023-21610
-CVE-2023-21611
-CVE-2023-21612
-CVE-2023-21613
-CVE-2023-21614
-CVE-2023-21712
-CVE-2023-21716
-CVE-2023-21719
-CVE-2023-21720
-CVE-2023-21775
-CVE-2023-21795
-CVE-2023-21796
-CVE-2023-21930
-CVE-2023-21930
-CVE-2023-21930
-CVE-2023-21939
-CVE-2023-21939
-CVE-2023-21939
-CVE-2023-21954
-CVE-2023-21954
-CVE-2023-21954
-CVE-2023-21967
-CVE-2023-21967
-CVE-2023-21967
-CVE-2023-22240
-CVE-2023-22241
-CVE-2023-22242
-CVE-2023-23389
-CVE-2023-23397
-CVE-2023-23398
-CVE-2023-23399
-CVE-2023-23399
-CVE-2023-2459
-CVE-2023-2460
-CVE-2023-2462
-CVE-2023-2463
-CVE-2023-2464
-CVE-2023-2465
-CVE-2023-2466
-CVE-2023-2467
-CVE-2023-2468
-CVE-2023-24860
-CVE-2023-24892
-CVE-2023-24935
-CVE-2023-24953
-CVE-2023-26395
-CVE-2023-26396
-CVE-2023-26397
-CVE-2023-26405
-CVE-2023-26406
-CVE-2023-26407
-CVE-2023-26408
-CVE-2023-26417
-CVE-2023-26418
-CVE-2023-26419
-CVE-2023-26420
-CVE-2023-26421
-CVE-2023-26422
-CVE-2023-26423
-CVE-2023-26424
-CVE-2023-26425
-CVE-2023-2721
-CVE-2023-2722
-CVE-2023-2723
-CVE-2023-2724
-CVE-2023-2725
-CVE-2023-2726
-CVE-2023-28261
-CVE-2023-28286
-CVE-2023-28287
-CVE-2023-28295
-CVE-2023-2929
-CVE-2023-2930
-CVE-2023-2931
-CVE-2023-2932
-CVE-2023-2933
-CVE-2023-29334
-CVE-2023-29335
-CVE-2023-2934
-CVE-2023-29345
-CVE-2023-2935
-CVE-2023-29350
-CVE-2023-29354
-CVE-2023-2936
-CVE-2023-2937
-CVE-2023-2938
-CVE-2023-2939
-CVE-2023-2940
-CVE-2023-2941
-CVE-2023-3079
-CVE-2023-32029
-CVE-2023-3214
-CVE-2023-3215
-CVE-2023-3216
-CVE-2023-3217
-CVE-2023-33131
-CVE-2023-33133
-CVE-2023-33137
-CVE-2023-33143
-CVE-2023-33149
-CVE-2023-33150
-CVE-2023-33151
-CVE-2023-33152
-CVE-2023-33153
-CVE-2023-33156
-CVE-2023-33162
-CVE-2023-35311
-CVE-2023-35392
-CVE-2023-36884
-CVE-2023-36884
-CVE-2023-36884
-CVE-2023-36884
-CVE-2023-36887
-CVE-2023-36893
-CVE-2023-36895
-CVE-2023-36896
-CVE-2023-3727
-CVE-2023-3728
-CVE-2023-3730
-CVE-2023-3732
-CVE-2023-3733
-CVE-2023-3734
-CVE-2023-3735
-CVE-2023-3736
-CVE-2023-3737
-CVE-2023-3738
-CVE-2023-3740
-CVE-2023-38157
-CVE-2023-38187
-CVE-2023-4068
-CVE-2023-4069
-CVE-2023-4070
-CVE-2023-4071
-CVE-2023-4072
-CVE-2023-4073
-CVE-2023-4074
-CVE-2023-4075
-CVE-2023-4076
-CVE-2023-4077
-CVE-2023-4078
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2456	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2457	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2457	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2458	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2546	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2588	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2458	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2459	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2630	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2672	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2459	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2460	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2714	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2756	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2460	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2461	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2798	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2840	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2461	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2882	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2924	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2463	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2966	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3008	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2463	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2464	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3050	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3092	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2464	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2465	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3134	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3176	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2465	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2466	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3218	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3260	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2466	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2467	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3302	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3344	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2467	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2468	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3386	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3428	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2468	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2469	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3470	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3512	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2469	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2470	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3554	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3596	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2470	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2471	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3638	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3680	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2471	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2472	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3722	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3764	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2472	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2473	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3806	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3848	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2473	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2474	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3890	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3932	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2474	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2475	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-3974	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4016	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2475	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2476	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4058	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4100	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2476	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2477	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4142	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4184	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2477	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2478	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4226	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4268	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2478	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2479	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4310	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4352	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2479	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2480	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4394	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4436	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2480	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2481	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4478	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4520	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2481	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2482	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4562	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4604	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2482	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2483	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4646	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4688	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2483	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2484	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4730	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4772	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2484	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2485	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4814	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4856	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2485	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2486	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4898	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4940	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2486	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2487	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-4982	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5024	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2487	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2488	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5066	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2488	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2489	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5150	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5192	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2489	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2490	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5234	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5276	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2490	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2491	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5318	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5360	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2491	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2492	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5402	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5444	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2492	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2493	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5486	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5528	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2493	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2494	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5570	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5612	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2494	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2495	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5654	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5696	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2495	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2496	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5738	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5780	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2496	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2497	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5822	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5864	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2497	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2498	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5906	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5948	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2498	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2499	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-5990	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6032	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2499	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2500	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6074	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6116	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2500	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2501	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6158	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6200	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2501	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2502	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6242	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6284	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2502	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2503	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6326	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6368	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2503	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6410	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6452	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2505	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6494	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6536	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2505	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2506	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6578	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6620	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2506	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2507	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6662	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6704	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2507	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2508	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6746	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6788	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2508	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2509	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6830	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6872	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2509	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2510	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6914	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6956	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2510	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2511	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6998	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7040	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2511	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2512	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7082	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7124	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2512	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2513	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7166	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7208	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2513	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2514	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7250	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7292	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2514	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2515	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7334	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7376	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2515	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2516	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7418	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7460	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2516	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2517	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7502	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7544	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2517	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2518	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7586	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7628	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2518	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2519	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7670	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7712	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2519	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2520	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7754	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7796	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2520	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2521	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7838	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7880	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2521	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2522	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7922	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-7964	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2522	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2523	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8006	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8048	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2523	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2524	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8090	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2524	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2525	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8174	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8216	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2525	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2526	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8258	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8300	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2526	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2527	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8342	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8384	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2527	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2528	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8426	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8468	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2528	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2529	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8510	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8552	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2529	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2530	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8594	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8636	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2530	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2531	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8678	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8720	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2531	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2532	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8762	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8804	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2532	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2533	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8846	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8888	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2533	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2534	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8930	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-8972	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2534	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2535	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9014	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9056	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2535	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2536	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9098	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9140	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2536	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2537	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9182	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9224	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2537	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2538	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9266	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9308	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2538	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2539	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9350	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9392	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2539	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2540	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9434	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9476	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2540	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2541	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9518	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9560	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2541	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2542	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9602	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9644	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2542	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2543	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9686	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9728	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2543	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2544	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9770	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9812	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2544	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2545	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9854	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9896	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2545	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2546	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9938	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-9980	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2546	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2547	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-10022	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-10064	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2547	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2548	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-10106	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-10148	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2548	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2549	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-10190	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-10232	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2549	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2550	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-10274	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-10316	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2550	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2462	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2504	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6096	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6108	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-6115	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0033	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0047	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2016-0132	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2551	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-10358	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-10400	Microsoft .NET Framework - 3.5
+Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)	CVE-2015-2455, CVE-2015-2551	Microsoft .NET Framework - 3.5
