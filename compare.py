@@ -1,6 +1,10 @@
-import re, urllib.request, json
+import re, urllib.request, json, logging
 from clear import format_api, format_local
 from exceptions import *
+
+logging.basicConfig(filename='compare.log', level=logging.DEBUG, 
+                    format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+
 
 def markup(product: str) -> dict:
     '''
@@ -59,6 +63,11 @@ def markup(product: str) -> dict:
 
     marked_up['keywords'].sort()
 
+    if '' in marked_up['keywords']:
+        marked_up['keywords'].remove('')
+
+
+    logging.debug(str(marked_up))
     return marked_up
 
 
@@ -155,7 +164,8 @@ def compare(product_api: str, product_local: str) -> list:
     rating = []
     for key in product_api.keys():
         rating.append(rate_match(product_local[key], product_api[key], key))
-
+    
+    logging.debug(str(rating))
     return rating
 
 
@@ -194,6 +204,7 @@ def get_best_link(chunk):
                 if link != None:
                     links[0] = link
 
+    logging.debug(str(links[max(links.keys())]))    
     return links[max(links.keys())]
 
 
@@ -247,3 +258,4 @@ def choose(cve: str, platform: str, product: str) -> str:
     for link in results:
         if results[link] == max_result:
             return link
+        
