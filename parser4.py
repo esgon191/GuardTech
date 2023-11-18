@@ -1,27 +1,40 @@
-import requests
+import requests, logging
 import html_to_json as hj
 from sys import setrecursionlimit
 from functools import lru_cache
 
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+FORMAT = "%(asctime)s %(funcName)s %(levelname)s %(message)s"
+
+handler = logging.FileHandler(f"logs/{__name__}.log", mode='a') 
+formatter = logging.Formatter(FORMAT)
+
+handler.setFormatter(formatter)
+logger.addHandler(handler)
 
 setrecursionlimit(10000)
 # основная ссылка, по которой ищутся кбшки
-main_link = "https://catalog.update.microsoft.com/ScopedView.aspx?updateid="
+MAIN_LINK = "https://catalog.update.microsoft.com/ScopedView.aspx?updateid="
 # якорь на раздел "сведения о пакете"
-package_details = "#PackageDetails"
+PACKAGE_DETAILS = "#PackageDetails"
 
 
 # функция возвращает html по айдишнику апдейта
 def get_html(updateId):
-    _url = main_link + updateId + package_details
+    _url = MAIN_LINK + updateId + PACKAGE_DETAILS
     response = requests.get(_url)
     return response.text
 
 
 # ищет следующую кбшку по айдишнику апдейта
-# (P.S. - т.к функция рекуррентная, то она будет долго работать. Чтобы видеть, если я сделал что-то не так (очень сильно в этом сомневаюсь хи-хи), можно раскоментировать принты и проверить работу)
+# (P.S. - т.к функция рекуррентная, то она будет долго работать. 
+# Чтобы видеть, если я сделал что-то не так (очень сильно в этом сомневаюсь хи-хи), 
+# можно раскоментировать принты и проверить работу)
 @lru_cache(maxsize=None)
 def find_next_update(updateId):
+    logger.info("new launch")
     # получает html по айдишнику апдейта
     res_html = get_html(updateId)
     # конвертирует html строку в json
@@ -45,6 +58,7 @@ def find_next_update(updateId):
             update_href = update_attributes.get("href")
             # берем айдишник на кбшку в конце ссылки
             next_update_id = update_href[25:]
+            logger.debug(next_update_id)
 
             # это имя обновления (на всякий случай)
             #update_value = update.get("_value")
@@ -56,12 +70,13 @@ def find_next_update(updateId):
     else:
         # если массив Н/Д (None), то завершаем работу функции
         # переданный в последний вызов updateId и есть самое актуальное обновление, которое нам нужно
-        print(f"обновление {updateId} самое актуальное для данной CVE")
+        logger.debug("обновление {updateId} самое актуальное для данной CVE")
         return type(updateId), updateId
 
-
+'''
 # рандомные кбшки, можно подставить любую для работы
 prev_id1 = "c12328f1-6645-451c-946d-11789665d6b7"
 prev_id2 = "257d1360-87fe-4e0f-affe-9ce4fa13de32"
 prev_id3 = "72ff447d-fd5d-4fb2-b23a-8e9fcba1a2a2"
 find_next_update(prev_id2)
+'''

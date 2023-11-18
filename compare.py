@@ -2,9 +2,16 @@ import re, urllib.request, json, logging, datetime
 from clear import format_api, format_local
 from exceptions import *
 
-logging.basicConfig(filename='logs/compare.log', level=logging.INFO)
-                    #format='%(asctime)s.%(msecs)03d - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
 
+FORMAT = "%(asctime)s %(funcName)s %(levelname)s %(message)s"
+
+handler = logging.FileHandler(f"logs/{__name__}.log", mode='a') 
+formatter = logging.Formatter(FORMAT)
+
+handler.setFormatter(formatter)
+logger.addHandler(handler)
 
 def markup(product: str) -> dict:
     '''
@@ -67,7 +74,7 @@ def markup(product: str) -> dict:
         marked_up['keywords'].remove('')
 
 
-    logging.debug(str(marked_up))
+    logger.debug(str(marked_up))
     return marked_up
 
 
@@ -166,7 +173,7 @@ def compare(product_api: str, product_local: str) -> list:
     for key in product_api.keys():
         rating.append(rate_match(product_local[key], product_api[key], key))
     
-    logging.debug(str(rating))
+    logger.debug(str(rating))
     return rating
 
 
@@ -206,9 +213,10 @@ def get_best_link(chunk):
                     links[0] = link
 
     if len(links.keys()) == 0:
+        logger.info("NoLinkFoundError")
         raise NoLinkFoundError("No downloadUrl in chunk['kbArticles']")
 
-    logging.debug(str(links[max(links.keys())]))    
+    logger.debug(str(links[max(links.keys())]))    
     return links[max(links.keys())]
 
 
@@ -217,14 +225,14 @@ def choose(cve: str, platform: str, product: str) -> str:
     На основе таблицы, платформы и продукта выбирает ссылку 
     с лучшим совпадением
     '''
-    logging.critical(f"{datetime.datetime.now()}----NEW COMPARE LAUNCH----")
+    logger.critical("----NEW COMPARE LAUNCH----")
     #Запрос в апи
     table = get_table(cve)
 
     #Если таблица пуста, вызываем исключение
     if table['@odata.count'] == 0:
-        logging.error('No data found on microsoft servers for')
-        logging.error(f'{cve} {platform} {product}')
+        logger.error('No data found on microsoft servers for')
+        logger.error(f'{cve} {platform} {product}')
         raise EmptyTableError('No data found on microsoft servers')
 
     #результаы сравнений
@@ -268,17 +276,17 @@ def choose(cve: str, platform: str, product: str) -> str:
                     })
 
     if len(results) == 0:
-        logging.error("NO MATCHING LINK")
+        logger.error("NO MATCHING LINK")
         raise NoMatchingLink
     
     #лучший результат сравнения
     max_result = max([i["result"] for i in results])
-    logging.debug(results)
+    logger.debug(results)
     
     links = []
     for record in results:
         if record["result"] == max_result:
             links.append(record["link"])
     
-    logging.info(links)
+    logger.info(links)
     return links[0]
