@@ -73,7 +73,7 @@ def markup(product: str) -> dict:
 
 def rate_match(atr_local: (list | str), atr_api: (list | str), type_of_atr: str) -> int:
     '''
-    Оценивает насколько совпадает передаваемые атрибуты
+    Оценивает насколько совпадают передаваемые атрибуты
     Возвращает Число от 0 до 2
     '''
     match type_of_atr:
@@ -217,7 +217,7 @@ def choose(cve: str, platform: str, product: str) -> str:
     На основе таблицы, платформы и продукта выбирает ссылку 
     с лучшим совпадением
     '''
-    logging.critical(f"{datetime.datetime.now()}----NEW LAUNCH----")
+    logging.critical(f"{datetime.datetime.now()}----NEW COMPARE LAUNCH----")
     #Запрос в апи
     table = get_table(cve)
 
