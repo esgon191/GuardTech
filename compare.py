@@ -2,8 +2,8 @@ import re, urllib.request, json, logging, datetime
 from clear import format_api, format_local
 from exceptions import *
 
-logging.basicConfig(filename='compare.log', level=logging.INFO, 
-                    format='%(asctime)s.%(msecs)03d - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+logging.basicConfig(filename='logs/compare.log', level=logging.INFO)
+                    #format='%(asctime)s.%(msecs)03d - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 
 
 def markup(product: str) -> dict:
@@ -200,7 +200,7 @@ def get_best_link(chunk):
                 if link != None:
                     links[1] = link
 
-            case 'security hotpatch update':
+            case 'security hotpatchd update':
                 link = article.get('downloadUrl')
                 if link != None:
                     links[0] = link
@@ -223,6 +223,8 @@ def choose(cve: str, platform: str, product: str) -> str:
 
     #Если таблица пуста, вызываем исключение
     if table['@odata.count'] == 0:
+        logging.error('No data found on microsoft servers for')
+        logging.error(f'{cve} {platform} {product}')
         raise EmptyTableError('No data found on microsoft servers')
 
     #результаы сравнений
