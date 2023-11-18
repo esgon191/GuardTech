@@ -25,6 +25,24 @@ class ChooseTest(TestCase):
             'https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB3163912'
         )
 
+    def test_windows_to_windows(self):
+        self.assertEqual(
+            choose('CVE-2022-21983', 'Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)', 'Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)'),
+            'https://catalog.update.microsoft.com/v7/site/Search.aspx?q=KB5012599'
+        )
+
+    def test_windows_to_office(self):
+        self.assertEqual(
+            choose('CVE-2022-33632', 'Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)', 'Microsoft Office - 2013 SP1 - C:\\Program Files (x86)\\Microsoft Office\\Office15\\'),
+            'https://www.microsoft.com/download/details.aspx?familyid=28345644-ce93-4dd5-91c2-2bcc738edeaa'
+        )
+
+    def test_windows_to_outlook(self):
+        self.assertEqual(
+            choose('CVE-2022-35742', 'Microsoft Windows - Windows 10 version 21H1 ProfessionalWorkstation (x64)', 'Microsoft Outlook - 2013 SP1 - C:\\Program Files (x86)\\Microsoft Office\\Office15\\'),
+            'https://www.microsoft.com/download/details.aspx?familyid=f94906a7-057c-442b-9cf5-e1f09b5ed0d8'
+        )
+
     def test_non_microsoft_developer(self):
         with self.assertRaises(NotImplementedError) as ex:
             choose('CVE-2016-3255', 'Shit ass crack', 'heroine los angeles')
