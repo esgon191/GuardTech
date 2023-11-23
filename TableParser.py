@@ -33,19 +33,21 @@ def generate_excel_from_data(data):
     wb.save(output_file)
     return output_file
 
+def func():
+    # Пример использования:
+    file_path = "C:/Users/artur/Downloads/Эталонный образ RUS сводный.xlsx"  # Укажите путь к загруженному файлу
+    
+    # Парсинг и фильтрация данных из исходного файла Excel
+    result = parse_excel(file_path)
+    if "error" in result:
+        print(f"Произошла ошибка: {result['error']}")
+    else:
+        # Создание Excel-файла на основе отфильтрованных данных
+        excel_file = generate_excel_from_data(result)
+        print(f"Создан Excel-файл: {excel_file}")
+    
+        # Проверка созданного Excel-файла, чтение и вывод первых строк
+        df = pd.read_excel(excel_file)
+        return print(df.head())
 
-# Пример использования:
-file_path = "C:/Users/artur/Downloads/Эталонный образ RUS сводный.xlsx"  # Укажите путь к загруженному файлу
-
-# Парсинг и фильтрация данных из исходного файла Excel
-result = parse_excel(file_path)
-if "error" in result:
-    print(f"Произошла ошибка: {result['error']}")
-else:
-    # Создание Excel-файла на основе отфильтрованных данных
-    excel_file = generate_excel_from_data(result)
-    print(f"Создан Excel-файл: {excel_file}")
-
-    # Проверка созданного Excel-файла, чтение и вывод первых строк
-    df = pd.read_excel(excel_file)
-    print(df.head())
+func()
