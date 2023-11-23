@@ -1,4 +1,5 @@
 import pandas as pd
+from openpyxl import Workbook
 
 
 def parse_excel(file_path):
@@ -20,12 +21,31 @@ def parse_excel(file_path):
     return parsed_data
 
 
+def generate_excel_from_data(data):
+    wb = Workbook()
+    ws = wb.active
+    ws.append(['CVE', 'Platform', 'Product', 'updateId'])
+
+    for rows in data:
+        ws.append([rows['CVE'], rows['Platform'], rows['Product'], rows['updateId']])
+
+    output_file = 'output.xlsx'
+    wb.save(output_file)
+    return output_file
+
+
 # Пример использования:
 file_path = "C:/Users/artur/Downloads/Эталонный образ RUS сводный.xlsx"  # Укажите путь к загруженному файлу
 
+# Парсинг и фильтрация данных из исходного файла Excel
 result = parse_excel(file_path)
 if "error" in result:
     print(f"Произошла ошибка: {result['error']}")
 else:
-    for row in result:
-        print(row)
+    # Создание Excel-файла на основе отфильтрованных данных
+    excel_file = generate_excel_from_data(result)
+    print(f"Создан Excel-файл: {excel_file}")
+
+    # Проверка созданного Excel-файла, чтение и вывод первых строк
+    df = pd.read_excel(excel_file)
+    print(df.head())
