@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Таблица CVE из Excel</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
+</head>
+<body>
+
+<h1>
+    <center>Таблица CVE из Excel</center>
+
+</h1>
+
+<input type="file" id="fileInput" accept=".xlsx,.xls" onchange="handleFile(this.files)"><br><br>
+
+
+
+<table id="cveTable" border="1">
+    <thead>
+    <tr>
+        <th>CVE</th>
+        <th>Platform</th>
+        <th>Product</th>
+        <th>Link</th>
+    </tr>
+    </thead>
+    <tbody id="tableBody">
+
+    {% for item in data %}
+    	{{ item.name }} {{ "|" }} {{ item.platform }} {{ "|" }} {{ item.product }} {{ "|" }} {{ item.updateLink }}
+        <br>
+    {% endfor %}
+
+    <!-- Здесь будут отображаться данные -->
+    </tbody>
+</table>
+
+<script>
+    function handleFile(files) {
+        var file = files[0];
+        var reader = new FileReader();
+
+        reader.onload = function (e) {
+            var data = new Uint8Array(e.target.result);
+            var workbook = XLSX.read(data, {type: 'array'});
+
+            var sheetName = workbook.SheetNames[0];
+            var sheet = workbook.Sheets[sheetName];
+
+            var table = document.getElementById("cveTable").getElementsByTagName('tbody')[0];
+            var range = XLSX.utils.decode_range(sheet['!ref']);
+
+            var startRow = 1;
+            var endRow = 100;
+
+            for (var rowNum = startRow; rowNum <= endRow; rowNum++) {
+                var newRow = table.insertRow(table.rows.length);
+
+                var columns = [5, 4, 6, 13]; // Индексы столбцов
+
+                for (var i = 0; i < columns.length; i++) {
+                    var colNum = columns[i];
+                    var cellAddress = {c: colNum, r: rowNum};
+                    var cellRef = XLSX.utils.encode_cell(cellAddress);
+                    var cell = sheet[cellRef];
+
+                    var newCell = newRow.insertCell(i);
+                    newCell.innerHTML = cell ? cell.v : '';
+                }
+            }
+        };
+
+        reader.readAsArrayBuffer(file);
+    }
+</script>
+
+</body>
+</html>
