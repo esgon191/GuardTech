@@ -1,3 +1,5 @@
+import time
+
 from django.shortcuts import render
 
 from testpage.models import Cve
@@ -380,28 +382,28 @@ def parse_excel(file_path):
     return parsed_data
 
 
-def generate_excel_from_data(data):
+def generate_excel_from_data(data, time):
     wb = Workbook()
     ws = wb.active
-    ws.append(['CVE', 'Операционная система', 'Сервис/ПО'])
+    ws.append(['CVE', 'Операционная система', 'Сервис/ПО', 'Ссылка на обновление'])
+    for row in data:
+        ws.append([row.name, row.platform, row.product, row.updateLink])
 
-    for rows in data:
-        ws.append([rows['CVE'], rows['Операционная система'], rows['Сервис/ПО']])
-
-    output_file = 'output.xlsx'
+    output_file = f'output {time}.xlsx'
     wb.save(output_file)
     return output_file
 
 
 def func():
-    file_path = "/Users/andrew/флешка центробанка/Эталонный образ RUS сводный.xlsx"
+    file_path = f"/Users/andrew/флешка центробанка/Эталонный образ RUS сводный.xlsx"
     result = parse_excel(file_path)
     if "error" in result:
         print(f"Произошла ошибка: {result['error']}")
     else:
-        for i, item in enumerate(result[130:140]):
+        k = 130
+        for i, item in enumerate(result[k:k + 7]):
             url1 = ""
-            print(i + 130, "\n--------\n", item["CVE"],
+            print(i + k, "\n--------\n", item["CVE"],
                   item["Операционная система"],
                   item["Сервис/ПО"]
                   )
@@ -436,7 +438,8 @@ def index_page(request):
     cves = Cve.objects.all()
     for item in cves:
         item.delete()
+    start_time = time.strftime("%d_%m_%Y_%H:%M", time.localtime(time.time()))
     func()
     cve_all = Cve.objects.all()
-    print(cve_all)
+    generate_excel_from_data(cve_all, start_time)
     return render(request, 'index.html', context={'data': cve_all})
