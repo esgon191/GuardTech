@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма для обработки данных</title>
+</head>
+<body>
+    <form action="{% url 'process' %}" method="POST">
+        {% csrf_token %}
+        <div>
+            <label for="file_path_input">Путь к файлу:</label>
+            <input type="text" id="file_path_input" name="file_path" placeholder="Введите путь к файлу">
+            <span id="file_path_hint" style="color: gray; font-size: 12px;">Пример: C:\example\file.xlsx</span>
+        </div>
+        <div>
+            <label for="save_path_input">Путь сохранения файла:</label>
+            <input type="text" id="save_path_input" name="save_path" placeholder="Введите путь сохранения файла">
+            <span id="save_path_hint" style="color: gray; font-size: 12px;">Пример: C:\example\save_location</span>
+        </div>
+        <button type="submit">Обработать данные и скачать файл</button>
+    </form>
+</body>
+</html>
