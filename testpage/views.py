@@ -400,10 +400,9 @@ def func():
     if "error" in result:
         print(f"Произошла ошибка: {result['error']}")
     else:
-        k = 130
-        for i, item in enumerate(result[k:k + 7]):
+        for i, item in enumerate(result):
             url1 = ""
-            print(i + k, "\n--------\n", item["CVE"],
+            print(i, "\n--------\n", item["CVE"],
                   item["Операционная система"],
                   item["Сервис/ПО"]
                   )
