@@ -6,6 +6,9 @@ class BasicError(Exception):
 	def __str__(self):
 		return self.message
 
+class NextLinkError(BasicError):
+    pass
+
 class EmptyTableError(BasicError):
 	pass
 
@@ -13,4 +16,7 @@ class NoLinkFoundError(BasicError):
 	pass
 
 class NoMatchingLink(BasicError):
+    pass
+
+class NoStage2DataError(BasicError):
 	pass

@@ -1,6 +1,7 @@
 import re, urllib.request, json, logging, datetime
 from clear import format_api, format_local
 from exceptions import *
+from functools import lru_cache
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -13,6 +14,7 @@ formatter = logging.Formatter(FORMAT)
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
+@lru_cache(maxsize=None)
 def markup(product: str) -> dict:
     '''
     Размечает строку по шаблону для дальнейшего сравнения.
@@ -77,7 +79,7 @@ def markup(product: str) -> dict:
     logger.debug(str(marked_up))
     return marked_up
 
-
+#@lru_cache(maxsize=None)
 def rate_match(atr_local: (list | str), atr_api: (list | str), type_of_atr: str) -> int:
     '''
     Оценивает насколько совпадают передаваемые атрибуты
@@ -156,7 +158,7 @@ def rate_match(atr_local: (list | str), atr_api: (list | str), type_of_atr: str)
                 return 0
 
 
-
+@lru_cache(maxsize=None)
 def compare(product_api: str, product_local: str) -> list:
     '''
     Устанавливает, являются ли две строки разными
@@ -176,7 +178,7 @@ def compare(product_api: str, product_local: str) -> list:
     logger.debug(str(rating))
     return rating
 
-
+@lru_cache(maxsize=None)
 def get_table(CVE: str) -> dict:
     '''
     Возвращает ссылку по CVE
@@ -188,7 +190,7 @@ def get_table(CVE: str) -> dict:
         data = json.load(url)
         return data
 
-
+#@lru_cache(maxsize=None)
 def get_best_link(chunk):
     '''
     Отбор лучшей ссылки из строчки в таблице
@@ -219,7 +221,7 @@ def get_best_link(chunk):
     logger.debug(str(links[max(links.keys())]))    
     return links[max(links.keys())]
 
-
+@lru_cache(maxsize=None)
 def choose(cve: str, platform: str, product: str) -> str:
     '''
     На основе таблицы, платформы и продукта выбирает ссылку 
