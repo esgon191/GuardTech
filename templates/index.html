@@ -11,25 +11,48 @@
 
 </h1>
 
-<input type="file" id="fileInput" accept=".xlsx,.xls" onchange="handleFile(this.files)"><br><br>
+<a href="{% url 'save_to_excel' %}"  id="excel-download-button">Скачать данные в Excel</a><br>
+<form method="POST" action="/process_file_path/">
+    {% csrf_token %}
+    <input type="text" name="file_path" id="322">
+    <button type="submit">Отправить</button>
+</form>
+<style>
+#excel-download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #007bff; /* Цвет фона кнопки */
+  border: 1px solid #007bff; /* Цвет рамки кнопки */
+}
 
-
-
-
+#excel-download-button:hover {
+  background-color: #0056b3; /* Изменение цвета при наведении курсора */
+  border: 1px solid #0056b3; /* Изменение цвета рамки при наведении курсора */
+}
+</style>
 <table id="cveTable" border="1">
     <thead>
     <tr>
         <th>CVE</th>
-        <th>Platform</th>
         <th>Product</th>
+        <th>Platform</th>
         <th>Link</th>
     </tr>
     </thead>
     <tbody id="tableBody">
 
     {% for item in data %}
-    	{{ item.name }} {{ "|" }} {{ item.platform }} {{ "|" }} {{ item.product }} {{ "|" }} {{ item.updateLink }}
-        <br>
+    <tr>
+        <td><center>{{ item.name }}</center></td>
+        <td><center>{{ item.platform }}</center></td>
+        <td><center>{{ item.product }}</center></td>
+        <td><center>{{ item.updateLink }}</center></td>
+    </tr>
     {% endfor %}
 
     <!-- Здесь будут отображаться данные -->
@@ -54,8 +77,8 @@
             var startRow = 1;
             var endRow = 100;
 
-            for (var rowNum = startRow; rowNum <= endRow; rowNum++) {
-                var newRow = table.insertRow(table.rows.length);
+        for (var rowNum = startRow; rowNum <= endRow; rowNum++) {
+            var newRow = table.insertRow(table.rows.length);
 
                 var columns = [5, 4, 6, 13]; // Индексы столбцов
 
@@ -67,13 +90,60 @@
 
                     var newCell = newRow.insertCell(i);
                     newCell.innerHTML = cell ? cell.v : '';
-                }
-            }
-        };
 
-        reader.readAsArrayBuffer(file);
+            // Создание объекта с данными для отправки на сервер
+            var dataToSend = {
+                cve: newRow.cells[0].innerHTML,
+                platform: newRow.cells[1].innerHTML,
+                product: newRow.cells[2].innerHTML,
+                link: newRow.cells[3].innerHTML
+            };
+
+            // Отправка данных на сервер через AJAX-запрос
+            fetch('/save_data/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': '{{ csrf_token }}'  // Django CSRF токен
+                },
+                body: JSON.stringify(dataToSend)
+            })
+            .then(response => {
+                if (response.ok) {
+                    console.log('Данные успешно сохранены');
+                } else {
+                    console.error('Ошибка при сохранении данных');
+                }
+            })
+            .catch(error => {
+                console.error('Произошла ошибка:', error);
+            });
+        }
     }
 </script>
+<script>
+        function sendFilePath() {
+            var file_path = document.getElementById('322').value;  // Получаем текст из поля ввода
+            fetch('/process_file_path/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': '{{ csrf_token }}'  // Django CSRF токен
+                },
+                body: JSON.stringify({file_path: file_path})  // Отправляем текст на сервер
+            })
+            .then(response => {
+                if (response.ok) {
+                    console.log('Путь к файлу успешно отправлен');
+                } else {
+                    console.error('Ошибка при отправке пути к файлу');
+                }
+            })
+            .catch(error => {
+                console.error('Произошла ошибка:', error);
+            });
+        }
+    </script>
 
 </body>
 </html>

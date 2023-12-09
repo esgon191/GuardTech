@@ -1,21 +1,26 @@
+import json
+import os
+import re
 import time
-
-from django.shortcuts import render
-
-from testpage.models import Cve
-from bs4 import BeautifulSoup
-import requests
-import html_to_json as hj
+import urllib.request
 from functools import lru_cache
-import re, urllib.request, json
-from testpage.clear import format_api, format_local
-from testpage.exceptions import *
+
+import html_to_json as hj
 import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+from django.http import HttpResponse, JsonResponse
+from django.shortcuts import render
 from openpyxl import Workbook
+
+from .clear import format_api, format_local
+from .exceptions import *
+from .models import Cve
 
 # url = 'https://www.catalog.update.microsoft.com/Search.aspx?q=KB4019114'
 main_link = "https://catalog.update.microsoft.com/ScopedView.aspx?updateid="
 package_details = "#PackageDetails"
+user_file_path = None
 
 
 def markup(product: str) -> dict:
@@ -305,37 +310,46 @@ def getting_needful_link(url):
     count = 0
     all_links = []
 
-    all_import_lines = soup.find(class_='resultsBackGround').find('table').find_all('tr')
+    results_background = soup.find(class_='resultsBackGround')
+    if results_background:
+        table = results_background.find('table')
+        if table:
+            all_import_lines = table.find_all('tr')
 
-    for item in all_import_lines:
-        row = []
-        if count != 0:
-            item_id = item.get('id')
-            item_id = item_id[:-3]
+            for item in all_import_lines:
+                row = []
+                if count != 0:
+                    item_id = item.get('id')
+                    if item_id:
+                        item_id = item_id[:-3]
 
-            row.append('https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=' + str(item_id))
-            words = item.find_all('td')
+                        row.append(
+                            'https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=' + str(item_id))
+                        words = item.find_all('td')
 
-            for word in words:
-                row.append(word.text)
-            all_links.append(row)
-        count += 1
+                        for word in words:
+                            row.append(word.text)
+                        all_links.append(row)
+                count += 1
 
-    final_links = []
-    for li in all_links:
-        final_links.append([li[0], len(li[3].split(','))])
-    max_link = ''
-    max_count = 0
+            final_links = []
+            for li in all_links:
+                final_links.append([li[0], len(li[3].split(','))])
+            max_link = ''
+            max_count = 0
 
-    for line in final_links:
-        if line[1] > max_count:
-            max_count = line[1]
-            max_link = line[0]
-    return max_link
+            for line in final_links:
+                if line[1] > max_count:
+                    max_count = line[1]
+                    max_link = line[0]
+            return max_link
+
+    return None
 
 
 @lru_cache(maxsize=None)
 def find_next_update(updateId: str, cve, po, pl):
+    print("process")
     res_html = get_html(updateId)
     res_json = hj.convert(res_html)
     try:
@@ -351,7 +365,7 @@ def find_next_update(updateId: str, cve, po, pl):
                 update_attributes = update.get("_attributes")
                 update_href = update_attributes.get("href")
                 next_update_id = update_href.split("=")[1]
-                print("обновление", next_update_id)
+                # print("обновление", next_update_id)
                 find_next_update(next_update_id, cve, po, pl)
         else:
             # cve po pl updateId
@@ -362,11 +376,37 @@ def find_next_update(updateId: str, cve, po, pl):
             print(f"обновление {updLink} самое актуальное для данной CVE")
             return updateId
     except:
-        print("ошибка")
+        print("ошибка123")
+
+
+def parse_and_generate_excel(file_path):
+    try:
+        data = pd.read_excel(file_path)
+    except Exception as e:
+        return {"error": str(e)}
+
+    try:
+        filtered_data = data[['CVE', 'Операционная система', 'Сервис/ПО']]
+    except KeyError as e:
+        return {"error": f"Столбец {e} не найден"}
+
+    parsed_data = filtered_data.to_dict(orient='records')
+
+    output_file = f'output_{time.strftime("%Y-%m-%d")}.xlsx'
+    wb = Workbook()
+    ws = wb.active
+    ws.append(['CVE', 'Операционная система', 'Сервис/ПО'])
+
+    for row in parsed_data:
+        ws.append([row['CVE'], row['Операционная система'], row['Сервис/ПО']])
+
+    wb.save(output_file)
+    return output_file
 
 
 def parse_excel(file_path):
     try:
+
         data = pd.read_excel(file_path)
     except Exception as e:
         return {"error": str(e)}
@@ -382,27 +422,81 @@ def parse_excel(file_path):
     return parsed_data
 
 
-def generate_excel_from_data(data, time):
-    wb = Workbook()
-    ws = wb.active
-    ws.append(['CVE', 'Операционная система', 'Сервис/ПО', 'Ссылка на обновление'])
-    for row in data:
-        ws.append([row.name, row.platform, row.product, row.updateLink])
+def save_to_excel(request):
+    # Получаем данные из базы данных
+    data_from_db = Cve.objects.all()
 
-    output_file = f'output {time}.xlsx'
-    wb.save(output_file)
-    return output_file
+    # Создаем DataFrame на основе данных из базы данных
+    data_dict = {
+        'CVE': [item.name for item in data_from_db],
+        'Product': [item.product for item in data_from_db],
+        'Platform': [item.platform for item in data_from_db],
+        'Link': [item.updateLink for item in data_from_db],
+    }
+    df = pd.DataFrame(data_dict)
+
+    # Сохраняем DataFrame в Excel
+    output_file = f'output-{time.strftime("%Y-%m-%d")}.xlsx'  # Имя файла для сохранения
+    df.to_excel(output_file, index=False)  # Сохраняем данные в Excel без индекса строк
+
+    # Отправляем файл пользователю как ответ на запрос
+    with open(output_file, 'rb') as file:
+        response = HttpResponse(file.read(), content_type='application/vnd.ms-excel')
+        response['Content-Disposition'] = f'attachment; filename={output_file}'
+        return response
+
+
+def process(request):
+    if request.method == 'POST':
+        file_path = request.POST.get('file_path')
+
+        if file_path is None:
+            return HttpResponse("Не хватает данных в запросе")
+
+        result = parse_and_generate_excel(file_path)
+        if "error" in result:
+            return HttpResponse(result['error'])
+        else:
+            with open(result, 'rb') as file:
+                response = HttpResponse(file.read(), content_type='application/vnd.ms-excel')
+                response['Content-Disposition'] = f'attachment; filename={os.path.basename(result)}'
+                print(file_path)
+                return response
+    else:
+        return HttpResponse("Этот метод не поддерживается")
+
+
+def process_file_path(request):
+    global user_file_path  # Делаем переменную file_path доступной для изменения
+
+    if request.method == 'POST':
+        user_file_path = request.POST.get('file_path')  # Получаем переданный путь к файлу
+        # Добавьте вашу логику обработки пути к файлу здесь
+
+        # Пример: вместо этого выводим сообщение в консоль
+        print("Путь к файлу:", user_file_path)
+        cves = Cve.objects.all()
+
+        for item in cves:
+            item.delete()
+        func()
+        cve_all = Cve.objects.all()
+        parse_and_generate_excel(cve_all)
+        return render(request, 'index.html', context={'data': cve_all})
+    else:
+        return JsonResponse({'success': False})  # Ответ о неудачной попытке
 
 
 def func():
-    file_path = f"/Users/andrew/флешка центробанка/Эталонный образ RUS сводный.xlsx"
-    result = parse_excel(file_path)
+    global user_file_path
+    result = parse_excel(user_file_path)
     if "error" in result:
         print(f"Произошла ошибка: {result['error']}")
     else:
-        for i, item in enumerate(result):
+        k = 0
+        for i, item in enumerate(result[k:len(result)]):
             url1 = ""
-            print(i, "\n--------\n", item["CVE"],
+            print(i + k, "\n--------\n", item["CVE"],
                   item["Операционная система"],
                   item["Сервис/ПО"]
                   )
@@ -422,7 +516,10 @@ def func():
                     print(updLink, updId)
                     find_next_update(updId, item["CVE"], item["Операционная система"], item["Сервис/ПО"])
                 except:
-                    print("ошибка")
+                    print("ошибка, save Н/Д")
+                    new_cve = Cve(updateLink="Н/Д", platform=item["Операционная система"], name=item["CVE"],
+                              product=item["Сервис/ПО"])
+                    new_cve.save()
             elif url1 != "" and "www.microsoft.com/download" in url1:
                 new_cve = Cve(updateLink=url1, platform=item["Операционная система"], name=item["CVE"],
                               product=item["Сервис/ПО"])
@@ -434,11 +531,6 @@ def func():
 
 
 def index_page(request):
-    cves = Cve.objects.all()
-    for item in cves:
-        item.delete()
-    start_time = time.strftime("%d_%m_%Y_%H:%M", time.localtime(time.time()))
-    func()
     cve_all = Cve.objects.all()
-    generate_excel_from_data(cve_all, start_time)
+    parse_and_generate_excel(cve_all)
     return render(request, 'index.html', context={'data': cve_all})
