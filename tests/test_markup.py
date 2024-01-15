@@ -1,6 +1,7 @@
 from unittest import TestCase, main
 from compare import markup
-
+import sys
+sys.path.insert(1, '../')
 class MarkUpTest(TestCase):
 	'''
 	Unit-тестирование функции mark_up файла compare.py

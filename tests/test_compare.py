@@ -1,6 +1,7 @@
 from unittest import TestCase, main
 from compare import compare
-
+import sys
+sys.path.insert(1, '../')
 class CompareTest(TestCase):
 	def test_basic(self):
 		self.assertEqual(

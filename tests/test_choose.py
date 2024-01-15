@@ -3,9 +3,10 @@ import sys, logging
 sys.path.insert(1, '../')
 from compare import choose
 from exceptions import *
-
+'''
 logging.basicConfig(filename='compare.log', level=logging.DEBUG, 
                     format='%(asctime)s - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
+'''
 '''
 logger = logging.getLogger()
 sys.stdout = open('compare.log','w')

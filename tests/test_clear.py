@@ -1,4 +1,6 @@
 from unittest import TestCase, main
+import sys
+sys.path.insert(1, '../')
 from clear import format_api, format_local
 
 class ClearTest(TestCase):

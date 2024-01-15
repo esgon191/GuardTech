@@ -1,6 +1,7 @@
 from unittest import TestCase, main
 from compare import rate_match
-
+import sys
+sys.path.insert(1, '../')
 class RateMatchTest(TestCase):
 	def test_keywords(self):
 		self.assertEqual(2, rate_match(['windows', '21h1'], ['windows', '21h1'], 'keywords'))
